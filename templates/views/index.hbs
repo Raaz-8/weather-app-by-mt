@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link href="/src/favicon.ico" rel="icon"  type="image/x-icon">
+        {{!-- <link href="../img/netflix-favicon.png" rel="icon" type="image/x-icon" /> --}}
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+    
+            <video id="bgvid" src="/src/bg-vid.mp4"autoplay loop muted>
+                
+            </video>
+
+            <article class="widget">
+                <form class="weatherLocation"><input placeholder="location..." class="citynameinp" type = "text"/><button>Search</button>
+                </form>
+                <div class="weatherIcon"><i class="wi wi-day-cloudy"></i></div>
+                <div class="weatherInfo">
+                    <div class="temperature"><span></span></div>
+                    <div class="description">    
+                        <div class="weatherCondition"></div>    
+                        <div class="place"></div>
+                    </div>
+                </div>
+                <div class="date"></div>
+            </article>
+        </div>
+        <script src="js/app.js"></script> 
+    </body>
+</html>
