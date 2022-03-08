@@ -2,7 +2,7 @@
   "name": "weather-app-by-mt",
   "version": "1.0.0",
   "description": "Weather app deploying using vercel",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "14.x"
   },
